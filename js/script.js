@@ -440,18 +440,18 @@
 
 let isLoggedIn =true ;
 let isAdmin = false;
-// let message = isLoggedIn ?(!isAdmin ?"welcome Admin":"Welcome User")
-// :"Please Login"
-// console.log(message)
+let message = isLoggedIn ?(!isAdmin ?"welcome Admin":"Welcome User")
+:"Please Login"
+console.log(message)
 
-if(isLoggedIn==true){
+// if(isLoggedIn==true){
 
-  if(isAdmin==true){
-    console.log("welcome Admin")
-  }
-  else{
-    console.log("wecome user")
-  }
-}else{
-  console.log("Login fail")
-}
+//   if(isAdmin==true){
+//     console.log("welcome Admin")
+//   }
+//   else{
+//     console.log("wecome user")
+//   }
+// }else{
+//   console.log("Login fail")
+// }

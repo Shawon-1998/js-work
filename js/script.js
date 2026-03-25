@@ -438,11 +438,11 @@
 //   console.log("fail")
 // }
 
-let isLoggedIn =true ;
-let isAdmin = false;
-let message = isLoggedIn ?(!isAdmin ?"welcome Admin":"Welcome User")
-:"Please Login"
-console.log(message)
+// let isLoggedIn =true ;
+// let isAdmin = false;
+// let message = isLoggedIn ?(!isAdmin ?"welcome Admin":"Welcome User")
+// :"Please Login"
+// console.log(message)
 
 // if(isLoggedIn==true){
 
@@ -454,4 +454,16 @@ console.log(message)
 //   }
 // }else{
 //   console.log("Login fail")
+// }
+
+// let sum = 0;
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 2 === 1) {
+//       sum += i
+//       console.log("sum", sum )
+//     }
+// }
+// let language = "JavaScript"
+// for(let i=0; i<language.length;i++){
+//     console.log(language.charAt(i))
 // }

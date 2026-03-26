@@ -467,3 +467,10 @@
 // for(let i=0; i<language.length;i++){
 //     console.log(language.charAt(i))
 // }
+
+
+const {about,myFunction} = require('../js/main')
+
+
+about(12,13)
+myFunction()
